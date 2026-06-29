@@ -1,0 +1,18 @@
+cat > .gitignore << 'EOF'
+# Credentials
+.env
+profiles.yml
+
+# dbt
+dbt/gtm_pipeline/target/
+dbt/gtm_pipeline/dbt_packages/
+dbt/gtm_pipeline/logs/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS
+.DS_Store
+EOF
