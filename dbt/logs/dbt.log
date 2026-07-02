@@ -1,0 +1,13 @@
+==================== 2026-07-02T02:16:41.279470Z | 019f209d-3439-7362-94d2-977c4214c967 ====================
+02:16:41.280702 [info ]: Installing dbt project and profile setup
+02:16:41.286258 [info ]: Info Created .vscode/extensions.json with dbt extension recommendation
+02:16:41.287654 [info ]: Success Project created successfully!
+02:16:41.288136 [info ]: Info Project name: jaffle_shop
+02:16:41.288154 [info ]: Info Project directory: jaffle_shop
+02:16:41.288178 [info ]: Info Setting up your profile...
+02:16:41.289362 [info ]: Loading ~/.dbt/profiles.yml
+02:16:41.293136 [info ]: Info Creating new profile...
+02:19:03.239467 [error]: [IoError (dbt1001)]: Failed to get adapter selection: IO error: read interrupted
+02:19:03.386852 [info ]: 
+==================== Execution Summary =====================
+Finished 'init' with 1 error [2m 22s]
